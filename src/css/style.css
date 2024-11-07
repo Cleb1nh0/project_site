@@ -1,0 +1,205 @@
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+    width: 100%;
+    background: linear-gradient(150deg, #2929a3, #cc0052);
+}
+
+
+.image {
+    width: 170px;
+}
+
+.botao-1 {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(150deg, #cc0052 , #800033);
+    color: #fff;
+    font-weight: bold;
+    font-family:"Poppins", serif ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+}
+
+.botao-1:hover {
+    background: linear-gradient(150deg, #000 , #bfbfbf);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+.botao-2 {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(150deg, #ff6600 , #ff0080);
+    color: #fff;
+    font-weight: bold;
+    font-family:"Poppins", serif ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Poppins", serif;
+    color: #cc0052;
+}
+
+.text-1 {
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    color: #2929a3;
+}
+
+img {
+    width: 600px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-main {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 60px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    background: linear-gradient(150deg, #ff6600 , #ff0080);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.cards {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+   
+}
+
+.card-2 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background: linear-gradient(150deg, #ff6600 , #ff0080);
+     margin: 15px;
+}
+
+.text-2 {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+    font-family: "Poppins", serif;
+}
+
+.text-3 {
+    margin: 15px;
+    font-family:  "Poppins", serif;
+    font-weight: bold;
+}
+
+.text-4 {
+    margin: 10px;
+    color: #666699;
+    font-family: "Poppins", serif;
+    font-size: 12px;
+}
+
+.text-5 {
+    margin: 15px;
+    color: #ff0080;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+}
+
+.text-5:hover {
+    color: #000;
+}
+
+i {
+    color: #fff;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(150deg, #2929a3, #cc0052);
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+
+} 
+
+.image-1 {
+    width: 200px;
+}
+
+.botao-3 {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(150deg, #ff6600 , #ff0080);
+    font-family:  "Poppins", serif;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: bold;
+
+}
+
+.botao-3:hover {
+    background: linear-gradient(150deg, #000 , #fff);
+}
+
